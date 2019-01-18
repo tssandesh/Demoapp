@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Naveen automation]">
+  <listeners>
+    <listener class-name="com.qa.Util.Listeners"/>
+    <listener class-name="com.qa.Extendreport.ExtentReportslistener"/>
+  </listeners>
+  <test name="Naveen(failed)">
+    <classes>
+      <class name="com.qa.test.HomePagetest">
+        <methods>
+          <include name="setup"/>
+          <include name="Done"/>
+        </methods>
+      </class> <!-- com.qa.test.HomePagetest -->
+      <class name="com.qa.test.LoginTestPage">
+        <methods>
+          <include name="setup"/>
+          <include name="Done"/>
+          <include name="Grant" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.qa.test.LoginTestPage -->
+    </classes>
+  </test> <!-- Naveen(failed) -->
+</suite> <!-- Failed suite [Naveen automation] -->

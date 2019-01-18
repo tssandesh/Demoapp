@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Naveen automation" duration-ms="59214" started-at="2019-01-09T05:43:17Z" finished-at="2019-01-09T05:44:16Z">
+    <groups>
+    </groups>
+    <test name="Naveen" duration-ms="59214" started-at="2019-01-09T05:43:17Z" finished-at="2019-01-09T05:44:16Z">
+      <class name="com.qa.test.LoginTestPage">
+        <test-method status="PASS" signature="Titletext()[pri:0, instance:com.qa.test.LoginTestPage@6442b0a6]" name="Titletext" duration-ms="17" started-at="2019-01-09T11:13:47Z" finished-at="2019-01-09T11:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Titletext -->
+        <test-method status="PASS" signature="Logo()[pri:0, instance:com.qa.test.LoginTestPage@6442b0a6]" name="Logo" duration-ms="70" started-at="2019-01-09T11:13:47Z" finished-at="2019-01-09T11:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo -->
+        <test-method status="PASS" signature="Grant(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.LoginTestPage@6442b0a6]" name="Grant" duration-ms="5359" started-at="2019-01-09T11:13:47Z" data-provider="getdata" finished-at="2019-01-09T11:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveenk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Grant -->
+        <test-method status="FAIL" signature="Grant(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.LoginTestPage@6442b0a6]" name="Grant" duration-ms="20091" started-at="2019-01-09T11:13:53Z" data-provider="getdata" finished-at="2019-01-09T11:14:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictuse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"username"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'DELL', ip: '192.168.1.197', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir7...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55102}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 0f092718136029ed4a89db44cacb5927
+*** Element info: {Using=name, value=username}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"username"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'DELL', ip: '192.168.1.197', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir7...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55102}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 0f092718136029ed4a89db44cacb5927
+*** Element info: {Using=name, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.qa.page.LoginPage.login(LoginPage.java:50)
+	at com.qa.test.LoginTestPage.Grant(LoginTestPage.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Grant -->
+      </class> <!-- com.qa.test.LoginTestPage -->
+      <class name="com.qa.test.HomePagetest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePagetest@1a407d53]" name="setup" is-config="true" duration-ms="21351" started-at="2019-01-09T11:13:17Z" finished-at="2019-01-09T11:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTestPage@6442b0a6]" name="setup" is-config="true" duration-ms="8910" started-at="2019-01-09T11:13:38Z" finished-at="2019-01-09T11:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gettitltest()[pri:0, instance:com.qa.test.HomePagetest@1a407d53]" name="gettitltest" duration-ms="18" started-at="2019-01-09T11:14:13Z" finished-at="2019-01-09T11:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitltest -->
+        <test-method status="PASS" signature="getname()[pri:0, instance:com.qa.test.HomePagetest@1a407d53]" name="getname" duration-ms="93" started-at="2019-01-09T11:14:13Z" finished-at="2019-01-09T11:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getname -->
+        <test-method status="PASS" signature="contact()[pri:0, instance:com.qa.test.HomePagetest@1a407d53]" name="contact" duration-ms="1999" started-at="2019-01-09T11:14:13Z" finished-at="2019-01-09T11:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method status="PASS" signature="Done()[pri:0, instance:com.qa.test.HomePagetest@1a407d53]" name="Done" is-config="true" duration-ms="811" started-at="2019-01-09T11:14:15Z" finished-at="2019-01-09T11:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Done -->
+        <test-method status="PASS" signature="Done()[pri:0, instance:com.qa.test.LoginTestPage@6442b0a6]" name="Done" is-config="true" duration-ms="0" started-at="2019-01-09T11:14:16Z" finished-at="2019-01-09T11:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Done -->
+      </class> <!-- com.qa.test.HomePagetest -->
+    </test> <!-- Naveen -->
+  </suite> <!-- Naveen automation -->
+</testng-results>

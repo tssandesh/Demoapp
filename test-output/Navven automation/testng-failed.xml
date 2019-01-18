@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Navven automation]">
+  <test name="test case(failed)">
+    <classes>
+      <class name="com.qa.test.HomePagetest">
+        <methods>
+          <include name="setup"/>
+          <include name="gettitltest"/>
+          <include name="getname"/>
+          <include name="contact"/>
+        </methods>
+      </class> <!-- com.qa.test.HomePagetest -->
+      <class name="com.qa.test.LoginTestPage">
+        <methods>
+          <include name="setup"/>
+          <include name="Grant" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.qa.test.LoginTestPage -->
+    </classes>
+  </test> <!-- test case(failed) -->
+</suite> <!-- Failed suite [Navven automation] -->

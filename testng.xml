@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Naveen automation">
+    <listeners>
+     <listener class-name="com.qa.Util.Listeners"/> 
+    <listener class-name="com.qa.Extendreport.ExtentReportslistener"/>
+    </listeners>
+    
+    
+    <test name="Naveen">
+        <classes>
+            
+             <class name="com.qa.test.LoginTestPage"></class>
+             <class name="com.qa.test.HomePagetest"></class>
+        </classes>
+    </test>
+    
+</suite>
